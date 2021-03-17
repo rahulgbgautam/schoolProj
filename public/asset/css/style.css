@@ -1,0 +1,423 @@
+:root{
+
+	--white:#fff;
+	--black:#000;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+.welcome-page{
+
+	background-color: green;
+}
+
+
+/*######################### navbar section start ##########################*/
+
+#navbar{
+
+	width: 100%;
+	background-color:#000;
+}
+
+
+
+/*######################### navbar section end ##########################*/
+
+
+
+/*##########################  index-section start ########################*/
+
+.index-section{
+
+	width: 100%;
+	height: 100vh;
+}
+
+
+/*##########################  index-section end ########################*/
+
+
+
+
+
+/*#########################  admin-portal start ################################*/
+
+.admin-portal{
+
+	width: 100%;
+
+}
+
+/*#########################  admin-portal end ################################*/
+
+
+
+
+/*########################  student-details start #########################*/
+
+.student-details{
+
+	width: 100%;
+}
+
+/*########################  student-details end #########################*/
+
+
+
+
+/*######################  admin-login start #########################*/
+
+
+.admin-login{
+
+	width: 100%;
+}
+
+
+/*######################  admin-login end #########################*/
+
+
+
+
+/*###########################  admin-registration start ####################*/
+
+.admin-registration{
+
+	width: 100%;
+}
+
+/*###########################  admin-registration end ####################*/
+
+
+
+
+/*########################### forgot-password start #####################*/
+
+.forgot-password{
+
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.forgot-password .container{
+
+	height: 450px;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+/*########################### forgot-password end #####################*/
+
+
+/*#############################   student details show fill start ###################*/
+
+.student-details-show-fill{
+
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.student-details-show-fill .container{
+
+	height: 450px;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+
+
+
+/*#############################   student details show fill end ###################*/
+
+
+
+
+
+/*#################################### student-details start #################################*/
+
+
+.student-details{
+
+	width: 100%;
+
+}
+
+
+/*#################################### student-details end #################################*/
+
+
+
+/*################################### student-details-add start #################*/
+
+
+.student-details-add{
+
+	width: 100%;
+}
+
+
+
+/*################################### student-details-add end #################*/
+
+
+
+
+/*########################### admin-login start ################*/
+
+.admin-login{
+
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.admin-login .container{
+
+	height: 450px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+/*########################### admin-login end ################*/
+
+
+
+
+/*################### staff-details-add start ####################*/
+
+
+.staff-details-add{
+
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.staff-details-add .container{
+
+	height: 450px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+
+/*################### staff-details-add end ####################*/
+
+
+/*##################### subject wise start ########################*/
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+/*##################### subject wise end ########################*/
+
+
+
+/*############################# staff-details start ##############*/
+
+.staff-details{
+
+	width: 100%;
+}
+
+/*############################# staff-details end ##############*/
+
+
+
+/*##################### staff-login start ##################*/
+
+.staff-login{
+
+	width: 100%;
+}
+
+/*##################### staff-login start ##################*/
+
+
+
+/*######################## student-marks-add start #########################*/
+
+.student-marks-add{
+
+	width: 100%;
+}
+
+
+/*######################## student-marks-add end #########################*/
+
+
+/*######################## student-marks-show start ################*/
+
+.student-marks-show{
+
+	width: 100%;
+}
+
+/*######################## student-marks-show end ################*/
+
+
+
+/*########################### fees-structure-start ###################*/
+
+
+.fees-structure{
+
+	width: 100%;
+	background-image: linear-gradient(to top,rgb(255, 204, 224),rgb(255, 230, 240)); 
+
+} 
+
+
+
+/*########################### fees-structure-end ###################*/
+
+
+
+/*########################## student-report start ######################*/
+
+
+.student-report{
+
+	width: 100%;
+}
+
+
+/*########################## student-report end ######################*/
+
+
+
+/*####################### term-wise start ####################*/
+
+.term-wise{
+
+	width: 100%;
+
+}
+
+
+/*####################### term-wise end ####################*/
+
+
+/*######################## student-marks-add-new start #############*/
+
+.student-marks-add-new{
+
+	width: 100%;
+}
+
+/*######################## student-marks-add-new end #############*/
+
+
+
+/*######################### Responsiveness code start #######################*/
+
+
+@media(min-width: 1200px){
+
+	html{
+
+		font-size: 100%;
+	}
+
+}
+
+
+
+
+@media(min-width: 992px) and (max-width: 1199px){
+
+	html{
+
+		font-size: 100%;
+	}
+
+}
+
+
+
+
+@media(min-width: 768px) and (max-width: 991px){
+
+
+	html{
+
+		font-size: 100%;
+	}
+
+}
+
+
+
+@media(min-width:576px) and (max-width: 767px){
+
+
+	html{
+
+		font-size: 100%;
+	}
+
+
+
+}
+
+
+
+
+
+
+@media(max-width: 575px){
+
+
+	html{
+
+		font-size: 100%;
+	}
+
+
+
+}
+
+
+/*######################### Responsiveness code end #######################*/
